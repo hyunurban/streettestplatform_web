@@ -1,6 +1,5 @@
 <?php
-	$IMAGES_DIR = "/voteimages/";
-	$images = glob($IMAGES_DIR .'*.JPG');
+	$images = glob('/voteimages/*.JPG');
 
 	$imagenumber1 = $_GET["index1"];
 	$imagenumber2 = $_GET["index2"];
