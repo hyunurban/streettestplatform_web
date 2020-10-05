@@ -23,8 +23,8 @@
 	$img1 = $images[$imagenumber1];
 	$img2 = $images[$imagenumber2];
 
-	$panojpg1 = substr($img1, -26);
-	$panojpg2 = substr($img2, -26);
+	$panojpg1 = substr($img1, 0, -14);
+	$panojpg2 = substr($img2, 0, -14);
 
 	$pano1 = explode('.', $panojpg1);
 	$pano2 = explode('.', $panojpg2);
